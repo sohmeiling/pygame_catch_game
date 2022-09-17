@@ -32,13 +32,13 @@ while run:
 
     keys_pressed = key.get_pressed()
 
-    if key.get_pressed([K_LEFT]) and x1 > 5:
+    if key.get_pressed[K_LEFT] and x1 > 5:
         x1 -= speed
-    if key.get_pressed([K_RIGHT]) and x1 < 595:
+    if key.get_pressed[K_RIGHT] and x1 < 595:
         x1 += speed
-    if key.get_pressed([K_UP]) and y1 > 5:
+    if key.get_pressed[K_UP] and y1 > 5:
         y1 -= speed
-    if key.get_pressed([K_DOWN]) and y1 < 395:
+    if key.get_pressed[K_DOWN] and y1 < 395:
         y1 += speed
 
     if keys_pressed[K_a] and x2 > 5:
